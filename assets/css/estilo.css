@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    color:rgb(255, 255, 255);
+    width: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.titulo{
+    width: 100%;
+    height: 8.4vh;
+    float: left;
+    padding: 20px;
+    background-color: #2296f3;
+    font-size: 1.7em;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+display: flex;
+text-align: left;
+}
+#img{
+
+    display: flex;
+    justify-content: center;
+
+}
+img{
+width: 50%;
+height: auto;
+margin-top: 140px;
+margin-bottom: 30px;
+}
+
+#login{
+    width: 100%;
+    height: auto;
+    padding: 4%;
+
+
+}
+
+
+.formulario{
+    width: 100%;
+    height: 8.8vh;
+    border: 2px solid;
+    border-radius: 5px;
+    background: #ffffff;
+    text-indent: 8px;
+    outline: none;
+    font-size: 1.7em;
+    padding: 5px;
+    border-color: #b9b8b8;;
+
+}
+.formulario:focus{
+    background: #ececec;
+    color: #b9b8b8;
+}
+.formulario::placeholder{
+    color: #969696;
+    font-size: 0.8em;
+}
+#email{
+    margin-bottom: 20px;
+
+}
+
+.botao-login{
+    width: 66%;
+    margin-bottom: 20px;
+    height: 7.9vh;
+    border: 0;
+    border-radius: 30px;
+    background: #2296f3;
+    font-size: 2.2em;
+    color: #ffffff;
+    cursor: pointer;
+}
+#recuperar-senha{
+    text-align: center;
+    color: #2296f3;
+    margin: 20px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#botao-login{
+    display: flex;
+    justify-content: center;
+
+}
+#botao-create{
+    display: flex;
+    justify-content: center;
+    
+}
+.botao-create{
+    text-align: center;
+    color: #414141;
+    margin: 20px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.35vh; 
+
+}
+@media (max-width: 700px){
+
+    .container {
+        color:rgb(255, 255, 255);
+        width: 310px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+}
